@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dashboard</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+	<header class="header">
+		<div class="header-wrapper">
+			<div class="logo-menu">
+				<button class="menu-toggle">
+					<img src="assets/img/toggle-bar.png" />
+				</button>
+				<a href="#">
+					<img src="assets/img/logo.png" />
+				</a>
+			</div>
+			<div class="status-game">
+				<p>Status:<span>Live</span></p>
+				<!-- <select class="header-select">
+					<option>Dhamaalgames</option>
+					<option>Dhamaalgames</option>
+					<option>Dhamaalgames</option>
+				</select> -->
+			</div>
+		</div>
+	</header>
+<div class="full-page">
+
+
+<!-- Left Side Menu -->
+
+<div class="dashboardo-block scroller">
+	<div class="das-menu">
+		<div class="drawer-menu-heading"></div>
+		<div class="das-menu-list">
+			<ul>
+				<li>
+					<a href="#"><img src="assets/img/dashboard.png" /><span>Dashboard</span></a>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Live Players</span> <span class="arrow"><img src="assets/img/right.png" width="8" /></span></a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Bot Status</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Game Management</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Poker Table</a>
+						</li>
+						<li>
+							<a href="#">Rummy Table</a>
+						</li>
+						<li>
+							<a href="#">Call Break Table</a>
+						</li>
+						<li>
+							<a href="#">Ludo Table</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#"><img src="assets/img/dashboard.png" /><span>Game History</span>
+					</a>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Player Management</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Manage Player</a>
+						</li>
+						<li>
+							<a href="#">Bank Details</a>
+						</li>
+						<li>
+							<a href="#">Player Kyc</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#"><img src="assets/img/dashboard.png" /><span>Affiliate Management</span>
+					</a>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Finance</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Send Out</a>
+						</li>
+						<li>
+							<a href="#">Deposit transactions</a>
+						</li>
+						<li>
+							<a href="#">Claim Back</a>
+						</li>
+						<li>
+							<a href="#">Cashin vs Cashout</a>
+						</li>
+						<li>
+							<a href="#">Withdrawal Transaction</a>
+						</li>
+						<li>
+							<a href="#">Withdrawal Request</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Manage Campaign</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Banner</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Manage Bots</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Poker AI Rules</a>
+						</li>
+						<li>
+							<a href="#">Bots Management</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>HR Management</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Role Management</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Messages</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Messages</a>
+						</li>
+						<li>
+							<a href="#">Scroller Setting</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Manage Tournament</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Ludo Tournament</a>
+						</li>
+						<li>
+							<a href="#">Ludo Sng Tournament</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Master Setting</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Game Category</a>
+						</li>
+						<li>
+							<a href="#">Game List</a>
+						</li>
+						<li>
+							<a href="#">Manage Maintenance</a>
+						</li>
+						<li>
+							<a href="#">Stake Details</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Support Details</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Support Details</a>
+						</li>
+						<li>
+							<a href="#">Support</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Analytics</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Login History</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Turnover Report</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Player Turnover</a>
+						</li>
+						<li>
+							<a href="#">State Agent Turnover</a>
+						</li>
+						<li>
+							<a href="#">Master Turnover</a>
+						</li>
+						<li>
+							<a href="#">Super Agent Turnover</a>
+						</li>
+						<li>
+							<a href="#">Agent Turnover</a>
+						</li>
+						<li>
+							<a href="#">Quick Turnover</a>
+						</li>
+						<li>
+							<a href="#">Quick Turnover Claim</a>
+						</li>
+						<li>
+							<a href="#">Overall Turnover</a>
+						</li>
+						<li>
+							<a href="#">PlayerClaim Turnover</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Commission Report</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">State Agent Commission</a>
+						</li>
+						<li>
+							<a href="#">Master Commission</a>
+						</li>
+						<li>
+							<a href="#">Super Agent Commission</a>
+						</li>
+						<li>
+							<a href="#">Agent Commission</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Miscellaneous</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Become Affiliate</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		
+
+	</div>
+	<div class="das-footer">
+		
+	</div>
+</div>
+
+
+
+	<div class="loader-line"></div>
+	<!-- <div class="refresh">
+		<button class="refresh-btn"> <img src="assets/img/refresh.png" /></button>
+	</div> -->
+	<div class="right-sidebar">
+	<ul class="dashboard-list">
+		<li>
+			<strong>0</strong>
+			<span>Live Tables</span>
+		</li>
+		<li>
+			<strong>0</strong>
+			<span>Queue Tables</span>
+		</li>
+		<li style="background: #fdee48;">
+			<strong>0</strong>
+			<span>Tournaments</span>
+		</li>
+		<li style="background: #14213d;">
+			<strong style="color:#fff;">0</strong>
+			<span style="color:#fff;">Challenges</span>
+		</li>
+		<li style="background: #00c488;">
+			<strong>0</strong>
+			<span>Players</span>
+		</li>
+		<li style="background: #27c1ff;">
+			<strong>0</strong>
+			<span>AI Users</span>
+		</li>
+	</ul>
+	<div class="alltask">
+		
+		<div class="w-50 task-content" style="border-color: #93e2ed;">
+			<div class="task-header">
+				<div class="" style="width:auto;display: flex;align-items: center;">
+				<!-- <img src="assets/img/dot.png" width="8" /> --><h2 style="margin: 0;">Live Tables</h2><!-- <img src="assets/img/right.png" width="8" /> -->
+				<p class="count-data">count: <span>10</span></p>
+			</div>
+			<div style="width:auto;">
+				<button class="refresh-data">
+				<img src="assets/img/refresh.png" style="float: right;" />
+				</button>
+				</div>
+			</div>
+			<div class="task-data scroller scroller">
+				<table class="data-table" border="0">
+					<thead>
+						<tr>
+							<th>Entry fee</th>
+							<th style="text-align:center;">Game Type</th>
+							<th style="text-align:right;">Max Player</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">1House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">2House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">3House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">4House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">5House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">6House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">6House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">6House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">6House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">6House</td>
+							<td>4</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="w-50 task-content" style="border-color:#ffc0da;">
+			<div class="task-header">
+				<div class="" style="width:auto;display: flex;align-items: center;">
+				<h2>Queue tables</h2>
+				<p class="count-data">count: <span>10</span></p>
+			</div>
+			<div style="width:auto;">
+				<button class="refresh-data">
+				<img src="assets/img/refresh.png" style="float: right;" />
+				</button>
+				</div>
+			</div>
+			<div class="task-data scroller">
+				<!-- <tr>
+							<td>
+								<p class="user">
+									this is a test cliq task<span>Test Project</span></p>
+								</td>
+							<td>02-06-2020</td>
+						</tr> -->
+				<table class="data-table" border="0">
+					<thead>
+						<tr>
+							<th>Entry fee</th>
+							<th style="text-align:center;">Game Type</th>
+							<th style="text-align:right;">Max Player</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">1House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">2House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">3House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">4House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">5House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">6House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">6House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">6House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">6House</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">6House</td>
+							<td>4</td>
+						</tr>
+					</tbody>
+				</table>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="alltask">
+		
+		<div class="w-50 task-content" style="border-color:#fdee48;">
+			<div class="task-header">
+				<div class="" style="width:auto;display: flex;align-items: center;">
+				<h2>Tournaments</h2>
+				<p class="count-data">count: <span>10</span></p>
+			</div>
+			<div style="width:auto;">
+				<button class="refresh-data">
+				<img src="assets/img/refresh.png" style="float: right;" />
+				</button>
+				</div>
+			</div>
+			<div class="task-data scroller">
+				<table class="data-table" border="0">
+					<thead>
+						<tr>
+							<th>Entry fee</th>
+							<th style="text-align:center;">Game Type</th>
+							<th style="text-align:right;">Remaining Time</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">1House</td>
+							<td>0H 1M 43S</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">2House</td>
+							<td>0H 1M 43S</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">3House</td>
+							<td>0H 1M 43S</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">4House</td>
+							<td>0H 1M 43S</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">5House</td>
+							<td>0H 1M 43S</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">6House</td>
+							<td>0H 1M 43S</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">6House</td>
+							<td>0H 1M 43S</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">6House</td>
+							<td>0H 1M 43S</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">6House</td>
+							<td>0H 1M 43S</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">6House</td>
+							<td>0H 1M 43S</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="w-50 task-content" style="border-color: #14213d;">
+			<div class="task-header">
+				<div class="" style="width:auto;display: flex;align-items: center;">
+				<h2>Challenges</h2>
+				<p class="count-data">count: <span>10</span></p>
+			</div>
+			<div style="width:auto;">
+				<button class="refresh-data">
+				<img src="assets/img/refresh.png" style="float: right;" />
+				</button>
+				</div>
+			</div>
+			<div class="task-data scroller">
+				<table class="data-table" border="0">
+					<thead>
+						<tr>
+							<th>Entry fee</th>
+							<th style="text-align:center;">Game Type</th>
+							<th style="text-align:right;">Status</th>
+							<th style="text-align:right;">Players vs AI Users</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">1House</td>
+							<td style="padding-left: 33px;">3/4</td>
+							<td>2/1</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">1House</td>
+							<td style="padding-left: 33px;">3/4</td>
+							<td>2/1</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">1House</td>
+							<td style="padding-left: 33px;">3/4</td>
+							<td>2/1</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">1House</td>
+							<td style="padding-left: 33px;">3/4</td>
+							<td>2/1</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">1House</td>
+							<td style="padding-left: 33px;">3/4</td>
+							<td>2/1</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">1House</td>
+							<td style="padding-left: 33px;">3/4</td>
+							<td>2/1</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">1House</td>
+							<td style="padding-left: 33px;">3/4</td>
+							<td>2/1</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">1House</td>
+							<td style="padding-left: 33px;">3/4</td>
+							<td>2/1</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">1House</td>
+							<td style="padding-left: 33px;">3/4</td>
+							<td>2/1</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="text-align: center;">1House</td>
+							<td style="padding-left: 33px;">3/4</td>
+							<td>2/1</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<div class="alltask">
+
+		<div class="w-50 task-content" style="border-color:#00c488;">
+			<div class="task-header">
+				<div class="" style="width:auto;display: flex;align-items: center;">
+				<h2>Players</h2>
+				<p class="count-data">count: <span>10</span></p>
+			</div>
+			<div style="width:auto;">
+				<button class="refresh-data">
+				<img src="assets/img/refresh.png" style="float: right;" />
+				</button>
+				</div>
+			</div>
+			<div class="task-data scroller">
+				
+				<table class="data-table players-data table-before" border="0">
+					<thead>
+						<tr>
+							<th>Login ID</th>
+							<th style="text-align:center;">Display Name</th>
+							<th style="text-align:center;">Table</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>8776522166</td>
+							<td style="text-align: center;">Tina</td>
+							<td>7822321 - Rs 5 - Timer</td>
+						</tr>
+						<tr>
+							<td>8776522166</td>
+							<td style="text-align: center;">Tina</td>
+							<td>7822321 - Rs 5 - Timer</td>
+						</tr>
+						<tr>
+							<td>8776522166</td>
+							<td style="text-align: center;">Tina</td>
+							<td>7822321 - Rs 5 - Timer</td>
+						</tr>
+						<tr>
+							<td>8776522166</td>
+							<td style="text-align: center;">Tina</td>
+							<td>7822321 - Rs 5 - Timer</td>
+						</tr>
+						<tr>
+							<td>8776522166</td>
+							<td style="text-align: center;">Tina</td>
+							<td>7822321 - Rs 5 - Timer</td>
+						</tr>
+						<tr>
+							<td>8776522166</td>
+							<td style="text-align: center;">Tina</td>
+							<td>7822321 - Rs 5 - Timer</td>
+						</tr>
+						<tr>
+							<td>8776522166</td>
+							<td style="text-align: center;">Tina</td>
+							<td>7822321 - Rs 5 - Timer</td>
+						</tr>
+						<tr>
+							<td>8776522166</td>
+							<td style="text-align: center;">Tina</td>
+							<td>7822321 - Rs 5 - Timer</td>
+						</tr>
+						<tr>
+							<td>8776522166</td>
+							<td style="text-align: center;">Tina</td>
+							<td>7822321 - Rs 5 - Timer</td>
+						</tr>
+						<tr>
+							<td>8776522166</td>
+							<td style="text-align: center;">Tina</td>
+							<td>7822321 - Rs 5 - Timer</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="w-50 task-content" style="border-color: #27c1ff;">
+			<div class="task-header">
+				<div class="" style="width:auto;display: flex;align-items: center;">
+				<h2>AI Users</h2>
+				<p class="count-data">count: <span>10</span></p>
+			</div>
+			<div style="width:auto;">
+				<button class="refresh-data">
+				<img src="assets/img/refresh.png" style="float: right;" />
+				</button>
+				</div>
+			</div>
+			<div class="task-data scroller">
+				<table class="data-table table-before players-data" border="0">
+					<thead>
+						<tr>
+							<th style="padding-left:0;padding-right: 0;">Bot Id( Display name)</th>
+							<th style="text-align:center;">Table Id/ Queue</th>
+							<th style="text-align:center;">Balance</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>87xxxxxx23</td>
+							<td style="text-align: center;">2344556</td>
+							<td>2000</td>
+						</tr>
+						<tr>
+							<td>87xxxxxx23</td>
+							<td style="text-align: center;">2344556</td>
+							<td>2000</td>
+						</tr>
+						<tr>
+							<td>87xxxxxx23</td>
+							<td style="text-align: center;">2344556</td>
+							<td>2000</td>
+						</tr>
+						<tr>
+							<td>87xxxxxx23</td>
+							<td style="text-align: center;">2344556</td>
+							<td>2000</td>
+						</tr>
+						<tr>
+							<td>87xxxxxx23</td>
+							<td style="text-align: center;">2344556</td>
+							<td>2000</td>
+						</tr>
+						<tr>
+							<td>87xxxxxx23</td>
+							<td style="text-align: center;">2344556</td>
+							<td>2000</td>
+						</tr>
+						<tr>
+							<td>87xxxxxx23</td>
+							<td style="text-align: center;">2344556</td>
+							<td>2000</td>
+						</tr>
+						<tr>
+							<td>87xxxxxx23</td>
+							<td style="text-align: center;">2344556</td>
+							<td>2000</td>
+						</tr>
+						<tr>
+							<td>87xxxxxx23</td>
+							<td style="text-align: center;">2344556</td>
+							<td>2000</td>
+						</tr>
+						<tr>
+							<td>87xxxxxx23</td>
+							<td style="text-align: center;">2344556</td>
+							<td>2000</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+
+<script>
+  $(".dropdown a").click(function(){
+    $(this).toggleClass("dropdown-active");
+    $(this).next(".sub-menu-list").toggleClass("sub_menu_active");
+  });
+</script>
+<script>
+	
+	$(".menu-toggle").click(function(){
+		$(this).toggleClass('menu-toggle-active');
+    $(".dashboardo-block").toggleClass("dashboardo-block-active");
+    $(".full-page").toggleClass("full-page-active");
+  });
+</script>
+<script>
+  $(".refresh-data").click(function(){
+    $(".loader-line").show();
+    setTimeout(function () {
+        $('.loader-line').hide();
+    }, 2000)
+  });
+</script>
+
+
+</body>
+</html>
