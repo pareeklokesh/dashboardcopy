@@ -465,6 +465,9 @@ display: block;
 margin: 0;
 padding: 0;
 }
+.task-data table.enterfee-data tr td {
+  padding: 10px 2px;
+}
 
 
 
